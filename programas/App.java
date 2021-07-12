@@ -137,9 +137,7 @@ public class App {
                                 quantidadeVendaPeriodo = quantidadeVendaPeriodo + 1;
                                 media = (media + vendas.get(i).getValorTotal()) / quantidadeVendaPeriodo;
                             }
-                        }                   
-                       // vendas.forEach(System.out::println); 
-                        //double media = vendas.stream().mapToDouble(vend -> vend.getValorTotal()).average().getAsDouble();        
+                        }     
                         System.out.printf("\nValor médio das vendas no período R$: %.2f\n", media);    
                     }
             
